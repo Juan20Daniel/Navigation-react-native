@@ -9,7 +9,6 @@ interface Props {
 }
 
 const PrimaryButton = ({label, customStyles, onPress}:Props) => {
- 
   return (
     <Pressable 
       style={[
